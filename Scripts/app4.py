@@ -1,6 +1,6 @@
 # Questão 1:
 def question_one():
- print("Resultados para questão 1: \n")
+ print("Resultados para questão 1:")
  print("Nome: João Silva")
  print("25 Anos")
  print("Profissão: Desenvolvedor \n")
@@ -9,14 +9,14 @@ question_one()
 
 # Questão 2:
 def product_Information():
+    print("Resultados para questão 2:")
     name = input("Qual o nome do produto: ")
     brand = input("Qual e a marca do produto: ")
     price = float(input("Qual e o preço do produto: "))
     
-    print("Resultados para questão 2: \n")
     print(f"O produto e um: {name}")
     print(f"A marca do seu produto é: {brand}")
-    print(f"O preço do produto é: R${price}")
+    print(f"O preço do produto é: R${price} \n")
 
 product_Information()
 
@@ -30,7 +30,10 @@ def calculation_1():
     divisao = num1 / num2
     potencia = num1 ** num2
     
-    print("Resultados para questão 3: \n", adicao, "\n", subtracao, "\n", multiplicao, "\n", divisao, "\n", potencia)
+    print("Resultados para questão 3: \n", 
+          adicao, "\n", subtracao, "\n", 
+          multiplicao, "\n", divisao, 
+          "\n", potencia)
  
 calculation_1()
 
@@ -44,7 +47,9 @@ def calculation_2():
     divisao = num1 / num2
     potencia = num1 ** num2
     
-    print("Resultados para questão 4: \n", adicao, "\n", subtracao, "\n", multiplicao, "\n", divisao, "\n", potencia)
+    print("Resultados para questão 4: \n", adicao, 
+          "\n", subtracao, "\n", multiplicao, 
+          "\n", divisao, "\n", potencia, "\n")
     
 calculation_2()
     
@@ -61,8 +66,8 @@ def school_Information():
                    'idade': 18, 
                    'curso': 'Ciencias_Humanas'}
     
-    print("Resultados para questão 5: \n")
-    print(Materias, "\n", Notas, "\n", Informações)
+    print("Resultados para questão 5:")
+    print(Materias, "\n", Notas, "\n", Informações, "\n")
     
 school_Information()
     
@@ -74,7 +79,7 @@ def car_info():
             'Modelo': 'Cadet', 
             'Ano': 2007}
     
-    print("Resultados para questão 6: \n")
+    print("Resultados para questão 6:")
     print(Acessorios, "\n", Especificaçoes, "\n", info)
     
 car_info()
