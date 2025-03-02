@@ -57,7 +57,9 @@ def school_Information():
     Notas = (5.4, 6.0, 4.2)
     
     # Dicionario
-    Informações = {'nome': 'Di', 'idade': 18, 'curso': 'Ciencias_Humanas'}
+    Informações = {'nome': 'Di', 
+                   'idade': 18, 
+                   'curso': 'Ciencias_Humanas'}
     
     print("Resultados para questão 5: \n")
     print(Materias, "\n", Notas, "\n", Informações)
@@ -68,7 +70,9 @@ school_Information()
 def car_info():
     Acessorios = ["som", "farois", "escapamento"]
     Especificaçoes = (200, 60)
-    info = {'Marca': 'Chevrolet', 'Modelo': 'Cadet', 'Ano': 2007}
+    info = {'Marca': 'Chevrolet', 
+            'Modelo': 'Cadet', 
+            'Ano': 2007}
     
     print("Resultados para questão 6: \n")
     print(Acessorios, "\n", Especificaçoes, "\n", info)
