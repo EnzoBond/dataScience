@@ -72,3 +72,4 @@ def car_info():
     
     print("Resultados para questão 6: \n")
     print(Acessorios, "\n", Especificaçoes, "\n", info)
+    car_info()
