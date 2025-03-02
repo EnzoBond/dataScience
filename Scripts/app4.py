@@ -53,10 +53,10 @@ def school_Information():
     # Lista 
     Materias = ['Filosofia', 'Geografia', 'Sociologia']
     
-    #Tuplas
+    # Tuplas
     Notas = (5.4, 6.0, 4.2)
     
-    #Dicionario
+    # Dicionario
     Informações = {'nome': 'Di', 'idade': 18, 'curso': 'Ciencias_Humanas'}
     
     print("Resultados para questão 5: \n")
