@@ -3,14 +3,14 @@ def question_one():
  print("Resultados para questão 1: \n")
  print("Nome: João Silva")
  print("25 Anos")
- print("Profissão: Desenvolvedor")
+ print("Profissão: Desenvolvedor \n")
 
- question_one()
+question_one()
 
 # Questão 2:
 def product_Information():
     name = input("Qual o nome do produto: ")
-    brand = input("Qual e a marca do produto:")
+    brand = input("Qual e a marca do produto: ")
     price = float(input("Qual e o preço do produto: "))
     
     print("Resultados para questão 2: \n")
@@ -18,7 +18,7 @@ def product_Information():
     print(f"A marca do seu produto é: {brand}")
     print(f"O preço do produto é: R${price}")
 
-    product_Information()
+product_Information()
 
 # Questão 3:
 def calculation_1():
@@ -32,7 +32,7 @@ def calculation_1():
     
     print("Resultados para questão 3: \n", adicao, "\n", subtracao, "\n", multiplicao, "\n", divisao, "\n", potencia)
  
-    calculation_1()
+calculation_1()
 
 # Questão 4:
 def calculation_2():    
@@ -46,7 +46,7 @@ def calculation_2():
     
     print("Resultados para questão 4: \n", adicao, "\n", subtracao, "\n", multiplicao, "\n", divisao, "\n", potencia)
     
-    calculation_2()
+calculation_2()
     
 #Questão 5:
 def school_Information():
@@ -62,7 +62,7 @@ def school_Information():
     print("Resultados para questão 5: \n")
     print(Materias, "\n", Notas, "\n", Informações)
     
-    school_Information()
+school_Information()
     
 # Questão 6:
 def car_info():
@@ -72,4 +72,5 @@ def car_info():
     
     print("Resultados para questão 6: \n")
     print(Acessorios, "\n", Especificaçoes, "\n", info)
-    car_info()
+    
+car_info()
