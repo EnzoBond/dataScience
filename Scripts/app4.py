@@ -12,7 +12,7 @@ def product_Information():
     print("Resultados para questão 2:")
     name = input("Qual o nome do produto: ")
     brand = input("Qual e a marca do produto: ")
-    price = float(input("Qual e o preço do produto: "))
+    price = int(input("Qual e o preço do produto: "))
     
     print(f"O produto e um: {name}")
     print(f"A marca do seu produto é: {brand}")
@@ -32,8 +32,8 @@ def calculation_1():
     
     print("Resultados para questão 3: \n", 
           adicao, "\n", subtracao, "\n", 
-          multiplicao, "\n", divisao, 
-          "\n", potencia)
+          multiplicao, "\n", divisao, "\n", 
+          potencia, "\n")
  
 calculation_1()
 
