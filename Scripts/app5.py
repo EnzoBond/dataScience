@@ -24,8 +24,11 @@ school_Notes()
 def lens_function():
     numeros = [5, 10, 15, 20, 25, 30]
     numerosPlus = [5, 10, 15, 20, 25, 30, 35] # Len com o valor extra
-    dados = {'nome': 'Ana', 'idade': 22, 'curso': 'Engenharia'}
-    dadosMinus = {'nome': 'Ana', 'idade': 22} # Len com o valor a menos
+    dados = {'nome': 'Ana', 
+             'idade': 22, 
+             'curso': 'Engenharia'}
+    dadosMinus = {'nome': 'Ana', 
+                  'idade': 22} # Len com o valor a menos
     valores = (3.14, 2.71, 1.41)
     
     print(len(numeros)) # Resultado: 5
@@ -40,7 +43,8 @@ lens_function()
 # Questão 4:
 def len_function_part2():
     years = [2010, 2012, 2014, 2016, 2018, 2020]
-    car_info = {'car_name': 'Kadet', 'brand': 'Chevrolet'}
+    car_info = {'car_name': 'Kadet', 
+                'brand': 'Chevrolet'}
     randomNumbers = (2.53, 13.37, 24.56, 12.56)
     
     print(len(years)) # Resultado : 6
