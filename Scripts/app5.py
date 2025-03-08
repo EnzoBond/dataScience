@@ -1,4 +1,4 @@
-# # Questão 1:
+# Questão 1:
 def eletronics_store():
     precoTotal = 189.987654
     
@@ -8,7 +8,7 @@ def eletronics_store():
     
 eletronics_store()
 
-# # Questão 2:
+# Questão 2:
 def school_Notes():
     note1 = 7.356
     note2 = 8.479
@@ -37,7 +37,7 @@ def lens_function():
     
 lens_function()
 
-#Questão 4
+# Questão 4:
 def len_function_part2():
     years = [2010, 2012, 2014, 2016, 2018, 2020]
     car_info = {'car_name': 'Kadet', 'brand': 'Chevrolet'}
@@ -49,7 +49,7 @@ def len_function_part2():
     
 len_function_part2()
 
-#Questão 5
+#Questão 5:
 def splitting_string():
     artistName = "Travis_Scott"
     
@@ -97,6 +97,7 @@ def split_phrases():
     
 split_phrases()
 
+# Questão 10:
 def input_string():
     nome = input("Qual e o seu nome? ")
     cidade = input("Qual cidade que voce mora? ")
