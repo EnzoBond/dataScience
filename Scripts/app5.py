@@ -36,8 +36,7 @@ def lens_function():
     print(len(dados)) # Resultado: 3
     print(len(dadosMinus))
     print(len(valores)) # Resultado : 3
-    
-    
+     
 lens_function()
 
 # Questão 4:
