@@ -36,7 +36,7 @@ questao_2()
 
 # Questão 3:
 def questao_3():
-    valor_total = int(input("Qual e o valor total da compra:"))
+    valor_total = float(input("Qual e o valor total da compra:"))
     
     if valor_total < 1000:
         print("Você recebeu um desconto de 25%. Agora o valor é: " + valor_total * 0.25)
