@@ -94,6 +94,7 @@ def questao_6():
         
     elif tempo <= 6:
         print("O estacionamento custou R$15.")
+        
     elif tempo > 6:
         print("O estacionamento custou R$25.")
         
