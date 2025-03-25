@@ -1,0 +1,10 @@
+docker compose up -d # Ele roda o docker no modo "debug"
+docker compose exec -it postgres psql  -U admin mydatabase # Acessa o banco de dados
+
+\l # Lista todas as databases que estão no docker|server
+\c # Nome da database" # Acessa a database
+\dt # Lista todas as tabelas criadas dentro da database
+\d # Descreva uma tabela especifica
+\s # Mostra o historico de comandos dados ao docker|server
+\o "destino do arquivo" # Salva o banco de dados num arquivo
+\i "nome do arquivo" # Carrega o banco de dados de um arquivo
