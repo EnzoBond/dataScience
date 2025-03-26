@@ -1,0 +1,38 @@
+services:
+    postgres:
+        image: postgres:15
+        container_name: main_container
+        environment:
+            POSTGRES_USER: admin
+            POSTGRES_PASSWORD: admin
+            POSTGRES_DB: dados_escola
+        ports:
+            - "5432:5432"
+        volumes:
+            - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
+
+
+
+# Explicação para cada linha de codigo:
+# -- Arquivo Docker Compose para configurar o PostgreSQL
+#
+# -- Definição dos serviços do Docker Compose
+# services:
+#   postgres:  -- Define um serviço chamado "postgres"
+#     image: postgres:15  -- Utiliza a imagem oficial do PostgreSQL versão 15
+#     container_name: postgres  -- Nome do contêiner para facilitar a identificação
+#     environment:
+#       POSTGRES_USER: admin  -- Define o usuário do banco de dados
+#       POSTGRES_PASSWORD: admin  -- Define a senha do banco de dados
+#       POSTGRES_DB: mydatabase  -- Nome do banco de dados que será criado no PostgreSQL
+#     ports:
+#       - "5432:5432"  -- Mapeia a porta 5432 do contêiner para a porta 5432 do host (máquina local)
+#     volumes:
+#       - postgres_data:/var/lib/postgresql/data  -- Define um volume para persistência dos dados
+#
+# -- Definição dos volumes persistentes no Docker
+# volumes:
+#   postgres_data:  -- Cria um volume nomeado para armazenar

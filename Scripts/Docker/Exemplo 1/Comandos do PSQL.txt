@@ -1,0 +1,15 @@
+docker compose up -d # Ele roda o docker no modo "debug"
+docker compose exec -it "id do container                                                                                                                 " psql  -U admin mydatabase # Acessa o banco de dados
+docker volume remove docker_postgres_data --force  # Remove à força o volume "docker_postgres_data", mesmo se estiver em uso
+docker container ls  # Lista todos os contêineres em execução
+docker volume inspect docker_postgres_data  # Exibe detalhes sobre o volume "docker_postgres_data" (caminho, status, etc.)
+docker compose down  # Para e remove todos os serviços, contêineres, redes e volumes do docker-compose.yml
+
+
+\l # Lista todas as databases que estão no docker|server
+\c # Nome da database" # Acessa a database
+\dt # Lista todas as tabelas criadas dentro da database
+\d # Descreva uma tabela especifica
+\s # Mostra o historico de comandos dados ao docker|server
+\o "destino do arquivo" # Salva o banco de dados num arquivo
+\i "nome do arquivo" # Carrega o banco de dados de um arquivo
