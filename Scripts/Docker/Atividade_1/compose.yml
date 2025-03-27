@@ -1,7 +1,7 @@
 services:
-    escola:
+    dados:
         image: postgres:15
-        container_name: desafio_1
+        container_name: desafio
         environment:
             POSTGRES_USER: admin
             POSTGRES_PASSWORD: admin
