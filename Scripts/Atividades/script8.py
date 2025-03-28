@@ -83,7 +83,7 @@ questao_5()
 def questao_6():
  print("Questão 6: ")
  lista_vendas = [1000, 500, 800, 1500, 2000, 2300]
- 
+
  print(max(lista_vendas))
 questao_6()
 
