@@ -35,7 +35,7 @@ def questao_3():
             print(soma)
 
     print("Fim do calculo. \n")
-    
+
 questao_3()
 
 def questao_4():
