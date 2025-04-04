@@ -1,3 +1,4 @@
+-- Parte 1:
 create table purchase(purchase_id serial primary key,
                       total_price decimal(10,2) not null,
                       purchase_date timestamp,
@@ -32,7 +33,7 @@ create table product(product_id serial primary key,
                      discontinued boolean);
 
 create table category(category_id serial primary key,
-                      name varchar(60) not null ,
+                      category_name varchar(60) not null ,
                       description text,
                       parent_category_id int references category(category_id));
 
@@ -56,3 +57,29 @@ alter table purchase -- Relação entre "purchase" e "employee"
 alter table product -- Relação entre "product" e "category"
    add column category_id int,
    add constraint fk_product_category foreign key (category_id) references category(category_id);
+
+-- Parte 2:
+-- Questão 1:
+select * from product;
+
+-- Questão 2:
+select employee_id, first_name, last_name, birth_date, hire_date, address, city, country from employee;
+
+-- Questão 3:
+select * from employee;
+
+-- Questão 4;
+select product_name, unit_price from product
+where unit_price >= 3.5;
+
+-- Questão 5:
+select product_name, category_name from product, category
+where product.category_id = category.category_id;
+
+-- Questão 6:
+select product_name, category_name from product, category
+where product.category_id = category.category_id or product.discontinued = true;
+
+-- Questão 7:
+select purchase_id, product_name, unit_price, quantity from purchase, purchase_item, product
+where purchase.purchase_id = purchase_item.purchase_id;
