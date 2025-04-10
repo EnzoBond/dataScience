@@ -1,4 +1,5 @@
 import random
+from termcolor import colored
 
 def questao_1():
     print("Questão 1: ")
@@ -32,7 +33,7 @@ def questao_3():
         numero = int(input("Digite um numero abaixo de 0: "))
         if numero != -5:
             soma += numero
-            print(soma)
+            print(colored(soma, "blue"))
 
     print("Fim do calculo. \n")
 
